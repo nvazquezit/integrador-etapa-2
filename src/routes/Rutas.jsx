@@ -13,27 +13,27 @@ const Rutas = () => {
       {
         path: '/',
         element: <Inicio />
-      }
+      },
       {
         path: '/alta',
         element: <Alta />
-      }
+      },
       {
         path: '/nosotros',
         element: <Nosotros />
-      }
+      },
       {
         path: '/contacto',
         element: <Contacto />
-      }
+      },
       {
         path: '/carrito',
         element: <Carrito />
-      }
+      },
       {
         path: '/*',
         element: <NoEncontrado />
-      }
+      },
     ]
   )
   return hookRutas
