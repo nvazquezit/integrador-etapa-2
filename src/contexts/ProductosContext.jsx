@@ -30,6 +30,7 @@ const ProductosProvider = ( { children }) => {
     }
 
     const data = {
+        productos
 
 
     }
