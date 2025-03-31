@@ -1,0 +1,83 @@
+/* ------------------------------------- */
+/* HEADER */
+/* ------------------------------------- */
+
+.main-header {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media screen and (min-width: 992px) {
+        & {
+            flex-direction: column;
+        }
+    }
+}
+
+#menu {
+    display: none; /* para hacer funcionar el menu hamburguesa */
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+        background-color: white;
+    }
+}
+
+
+
+
+/* ------------------------------------- */
+/* MENU TOOGLE */
+/* ------------------------------------- */
+
+.menu-toogle {
+    display: block;
+    background-color: #333;
+    flex: 0 0 3rem;
+    position: relative;
+    cursor: pointer;
+
+    &__label {
+        display: block;
+        background-color: #843d3d;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: #333;
+        height: .2rem;
+        position: absolute;
+        left: .5rem;
+        right: .5rem;        
+    }
+
+    &__top-bread {
+        top: .8rem;
+    }
+
+    &__meat {
+        top: 50%;
+        margin-top: -.1rem;
+    }
+
+    &__bottom-bread {
+        bottom: .8rem;
+    }
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: none;
+        }
+    }
+    
+}
+
+.logo-mefer {
+    clip-path: circle(49%);
+}

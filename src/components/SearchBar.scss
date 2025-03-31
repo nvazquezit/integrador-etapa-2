@@ -1,0 +1,58 @@
+/* ------------------------------------- */
+/* SEARCH BAR */
+/* ------------------------------------- */
+
+.search-bar {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: normal;
+    width: 100%;
+    margin: 0 auto;
+
+    &__logo-container {
+        width: 18.75rem;
+        height: 3.75rem;
+    }
+
+    &__form-container {
+        padding: 1rem;
+        background-color: #892a2a;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    &__form-label {
+        display: none;
+    }
+
+    &__form-search {
+        background-color: white;
+        padding: 10px 100px;
+        border-radius: 20px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    &__form-submit {
+        background-color: #333;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    &__carrito-container {
+        flex: 0 0 3rem;
+        background-color: #7e2727;
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-right: 1rem;
+        align-items: center;
+    }
+    
+}

@@ -1,3 +1,5 @@
+import './Inicio.scss'
+import Card from "../components/Card"
 
 const Inicio = () => {
   return (
@@ -11,7 +13,9 @@ const Inicio = () => {
           </header>
         </section>
 
-        <section className="cards-container" id="container-productos"></section>
+        <section className="cards-container" id="container-productos">
+          <Card />
+        </section>
 
       </main>
 

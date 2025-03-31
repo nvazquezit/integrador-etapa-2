@@ -1,8 +1,8 @@
-
+import './SearchBar.scss'
 const SearchBar = () => {
   return (
     <div className="search-bar">
-                <div className="search-bar__logo-container"><img src="/public/imgs/mefer-logo2.png" alt="" /></div>
+                <div className="search-bar__logo-container"><img src="imgs/mefer-logo2.png" alt="logo mefer" /></div>
                 <form action="#" className="search-bar__form-container">
                     <label htmlFor="busqueda" className="search-bar__form-label">Buscar</label>
                     <input type="search" id="busqueda" className="search-bar__form-search" />
