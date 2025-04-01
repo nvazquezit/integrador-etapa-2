@@ -1,101 +1,117 @@
-{
-    "productos": [
-        {
-            "id": 1,
-            "nombre": "Lata de cerveza Amstel x unidad",
-            "foto": "imgs/cerveza-amstel-lata.jpeg",
-            "descripcion": "Lata de cerveza Amstel de 200ml por unidad",
-            "precio": 1000,
-            "stock": "100"
-        },
-        {
-            "id": 2,
-            "nombre": "Lata de cerveza Grolsh",
-            "foto": "imgs/cerveza-grolsh-lata.jpeg",
-            "descripcion": "Lata de cerveza Grolsh de 200ml por unidad",
-            "precio": 1200,
-            "stock": "50"
-        },
+{   "productos": [
+    {
+      "id": 1,
+      "nombre": "Lata de cerveza Amstel x unidad",
+      "foto": "imgs/cerveza-amstel-lata.jpeg",
+      "descripcion": "Lata de cerveza Amstel de 200ml por unidad",
+      "precio": 1000,
+      "stock": "100",
+      "categoria": "cervezas",
+      "envio": true
+    },
+    {
+      "id": 2,
+      "nombre": "Lata de cerveza Grolsh",
+      "foto": "imgs/cerveza-grolsh-lata.jpeg",
+      "descripcion": "Lata de cerveza Grolsh de 200ml por unidad",
+      "precio": 1200,
+      "stock": "50",
+      "categoria": "cervezas",
+      "envio": true
+    },
+    {
+      "id": 3,
+      "nombre": "Lata de cerveza Heineken",
+      "foto": "imgs/cerveza-heineken-lata.jpeg",
+      "descripcion": "Lata de cerveza Heineken de 200ml por unidad",
+      "precio": 1150,
+      "stock": "200",
+      "categoria": "cervezas",
+      "envio": true
+    },
+    {
+      "id": 4,
+      "nombre": "Lata de cerveza Schneider",
+      "foto": "imgs/cerveza-schneider-lata.jpeg",
+      "descripcion": "Lata de cerveza Schneider de 200ml por unidad",
+      "precio": 900,
+      "stock": "250",
+      "categoria": "cervezas",
+      "envio": true
+    },
+    {
+      "id": 5,
+      "nombre": "Combo 1: 2 Fernet Branca de 750ml + 2 Coca-Cola de 2,25ml",
+      "foto": "imgs/combo-branca-coca.jpeg",
+      "descripcion": "Combo ideal para reunion de muchos amigos",
+      "precio": 20000,
+      "stock": "60",
+      "categoria": "combos",
+      "envio": true
+    },
+    {
+      "id": 6,
+      "nombre": "Combo 2: 1 Fernet Branca 750ml + 2 Coca-Cola de 2,25 ml",
+      "foto": "imgs/combo-branca-cocas.jpeg",
+      "descripcion": "Combo ideal para una juntada express",
+      "precio": 15000,
+      "stock": "80",
+      "categoria": "combos",
+      "envio": true
+    },
+    {
+      "id": 7,
+      "nombre": "Combo 3: 1 Smirnoff 750ml + 2 Speed",
+      "foto": "imgs/combo-vodka-speed.jpeg",
+      "descripcion": "Combo ideal económico para previa",
+      "precio": 11000,
+      "stock": "30",
+      "categoria": "combos",
+      "envio": true
+    },
+    {
+      "id": 8,
+      "nombre": "Combo 4: 1 Smirnoff 750ml + 2 Jugo Cepita Naranja 1 lt",
+      "foto": "imgs/combo-vodka-jugo.jpeg",
+      "descripcion": "Combo dulce para previa",
+      "precio": 13000,
+      "stock": "80",
+      "categoria": "combos",
+      "envio": true
+    },
+    {
+      "id": 9,
+      "nombre": "Vodka Smirnoff Saborizados",
+      "foto": "imgs/vodka-smirnoff.jpeg",
+      "descripcion": "Botella por unidad, el gusto que quieras",
+      "precio": 5000,
+      "stock": "90",
+      "categoria": "vodkas",
+      "envio": true
+    },
+    {
+      "id": 10,
+      "nombre": "Agua Saborizada Villa del Sur Levite 1,5 lts",
+      "foto": "imgs/saborizada-levite.jpeg",
+      "descripcion": "Botella por unidad, gustos a elección",
+      "precio": 3000,
+      "stock": "120",
+      "categoria": "bebidas sin alcohol",
+      "envio": true
+    },
+    {
+      "id": 11,
+      "nombre": "Agua mineral Villa del Sur 1 lts",
+      "foto": "imgs/agua-mineral.jpeg",
+      "descripcion": "Botella por unidad",
+      "precio": 2500,
+      "stock": "150",
+      "categoria": "bebidas sin alcohol",
+      "envio": true
+    }
+  ],
+  "carrito": [
     
-        {
-            "id": 3,
-            "nombre": "Lata de cerveza Heineken",
-            "foto": "imgs/cerveza-heineken-lata.jpeg",
-            "descripcion": "Lata de cerveza Heineken de 200ml por unidad",
-            "precio": 1150,
-            "stock": "200"
-        },
-    
-        {
-            "id": 4,
-            "nombre": "Lata de cerveza Schneider",
-            "foto": "imgs/cerveza-schneider-lata.jpeg",
-            "descripcion": "Lata de cerveza Schneider de 200ml por unidad",
-            "precio": 900,
-            "stock": "250"  
-        },
-    
-        {
-            "id": 5,
-            "nombre": "Combo 1: 2 Fernet Branca de 750ml + 2 Coca-Cola de 2,25ml",
-            "foto": "imgs/combo-branca-coca.jpeg",
-            "descripcion": "Combo ideal para reunion de muchos amigos",
-            "precio": 20000,
-            "stock": "60"
-        },
-    
-        {
-            "id": 6,
-            "nombre": "Combo 2: 1 Fernet Branca 750ml + 2 Coca-Cola de 2,25 ml",
-            "foto": "imgs/combo-branca-cocas.jpeg",
-            "descripcion": "Combo ideal para una juntada express",
-            "precio": 15000,
-            "stock": "80"    
-        },
-
-        {
-            "id": 7,
-            "nombre": "Combo 3: 1 Smirnoff 750ml + 2 Speed",
-            "foto": "imgs/combo-vodka-speed.jpeg",
-            "descripcion": "Combo ideal económico para previa",
-            "precio": 11000,
-            "stock": "30"    
-        },
-
-        {
-            "id": 8,
-            "nombre": "Combo 4: 1 Smirnoff 750ml + 2 Jugo Cepita Naranja 1 lt",
-            "foto": "imgs/combo-vodka-jugo.jpeg",
-            "descripcion": "Combo dulce para previa",
-            "precio": 13000,
-            "stock": "80"    
-        },
-
-        {
-            "id": 9,
-            "nombre": "Vodka Smirnoff Saborizados",
-            "foto": "imgs/vodka-smirnoff.jpeg",
-            "descripcion": "Botella por unidad, el gusto que quieras",
-            "precio": 5000,
-            "stock": "90"    
-        },
-        
-        {
-            "id": 10,
-            "nombre": "Agua Saborizada Villa del Sur Levite 1,5 lts",
-            "foto": "imgs/saborizada-levite.jpeg",
-            "descripcion": "Botella por unidad, gustos a elección",
-            "precio": 3000,
-            "stock": "120"    
-        },
-
-        {
-            "id": 11,
-            "nombre": "Agua mineral Villa del Sur 1 lts",
-            "foto": "imgs/agua-mineral.jpeg",
-            "descripcion": "Botella por unidad",
-            "precio": 2500,
-            "stock": "150"    
-        }
-    ]
+  ]
 }
+  

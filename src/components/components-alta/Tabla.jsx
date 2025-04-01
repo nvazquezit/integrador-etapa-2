@@ -16,7 +16,6 @@ const Tabla = () => {
                 <th>Nombre</th>
                 <th>Precio</th>
                 <th>Stock</th>
-                <th>Marca</th>
                 <th>Categoria</th>
                 <th>Detalle</th>
                 <th>Foto</th>
