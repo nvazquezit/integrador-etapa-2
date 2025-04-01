@@ -1,24 +1,21 @@
+import menuItems from '../constants/menuItems'
 import './Navbar.scss'
+import NavItem from './NavItem'
 
 const Navbar = () => {
   return (
     <nav className="nav-bar">
       <ul className="nav-bar__nav-list">
-        <li className="nav-bar__nav-item">
-          <a href="" className="nav-bar__nav-link">Inicio</a>
-        </li>
-        <li className="nav-bar__nav-item">
-          <a href="" className="nav-bar__nav-link">Alta</a>
-        </li>
-        <li className="nav-bar__nav-item">
-          <a href="" className="nav-bar__nav-link">Nosotros</a>
-        </li>
-        <li className="nav-bar__nav-item">
-          <a href="" className="nav-bar__nav-link">Contacto</a>
-        </li>
+
+        {
+          menuItems.map((item) => (
+            <NavItem item={item} key={item.id} />
+        
+          ))
+        }        
       </ul>
     </nav>
-  )
+  ) 
 }
 
 export default Navbar

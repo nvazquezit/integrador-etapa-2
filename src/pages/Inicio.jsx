@@ -2,9 +2,13 @@ import './Inicio.scss'
 import Card from "../components/Card"
 import { useContext } from 'react'
 import ProductosContext from '../contexts/ProductosContext'
+import useTitulo from '../hooks/useTitulo'
 
 const Inicio = () => {
   const {productos} = useContext(ProductosContext)
+
+  useTitulo ('Inicio')
+
   return (
     <>
 
