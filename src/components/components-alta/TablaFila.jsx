@@ -1,7 +1,22 @@
 
-const TablaFila = () => {
+const TablaFila = ( {producto}) => {
   return (
-    <div>TablaFila</div>
+    <tr>
+        <td>{producto.nombre}</td>
+        <td>{producto.precio}</td>
+        <td>{producto.stock}</td>
+        <td>{producto.marca}</td>
+        <td>{producto.categoria}</td>
+        <td>{producto.detalles}</td>
+        <td>
+            <img src={producto.foto} alt={producto.nombre} style={{ width: '40px'}} />
+        </td>
+        <td>
+            <button>Ver</button>
+            <button>Editar</button>
+            <button>Borrar</button>
+        </td>
+    </tr>
   )
 }
 
