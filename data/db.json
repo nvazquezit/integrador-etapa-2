@@ -1,4 +1,5 @@
-{   "productos": [
+{
+  "productos": [
     {
       "id": 1,
       "nombre": "Lata de cerveza Amstel x unidad",
@@ -108,10 +109,17 @@
       "stock": "150",
       "categoria": "bebidas sin alcohol",
       "envio": true
+    },
+    {
+      "id": "613d",
+      "nombre": "Fernet Branca 1 1lt",
+      "precio": "24000",
+      "stock": "48",
+      "categoria": "fernet",
+      "descripcion": "Fernet por unidad",
+      "foto": "imgs/branca-litro.jpeg",
+      "envio": true
     }
   ],
-  "carrito": [
-    
-  ]
+  "carrito": []
 }
-  

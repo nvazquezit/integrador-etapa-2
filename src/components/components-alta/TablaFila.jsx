@@ -19,9 +19,8 @@ const TablaFila = ({ producto }) => {
         <td>{producto.nombre}</td>
         <td>{producto.precio}</td>
         <td>{producto.stock}</td>
-        <td>{producto.marca}</td>
         <td>{producto.categoria}</td>
-        <td>{producto.detalles}</td>
+        <td>{producto.descripcion}</td>
         <td>
             <img src={producto.foto} alt={producto.nombre} style={{ width: '40px'}} />
         </td>

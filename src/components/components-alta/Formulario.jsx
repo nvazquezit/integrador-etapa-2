@@ -95,8 +95,8 @@ const Formulario = () => {
                 <label htmlFor="lbl-detalle">Descripcion</label>
                 <input 
                 type="text" 
-                id="lbl-detalle" 
-                name="detalle" 
+                id="lbl-descripcion" 
+                name="descripcion" 
                 value={form.descripcion}  
                 onChange={handleChange}/>
             </div>

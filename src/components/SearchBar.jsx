@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './SearchBar.scss'
 const SearchBar = () => {
   return (
@@ -8,7 +9,7 @@ const SearchBar = () => {
                     <input type="search" id="busqueda" className="search-bar__form-search" />
                     <button type="submit" className="search-bar__form-submit">Buscar</button>
                 </form>
-                <div className="search-bar__carrito-container">🛒</div>
+                <div className="search-bar__carrito-container"><Link to="/carrito">🛒</Link></div>
                 <div className="menu-toogle">
                     <label htmlFor="menu" className="menu-toogle__label">
                         <span className="menu-toogle__top-bread"></span>
