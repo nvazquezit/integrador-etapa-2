@@ -22,7 +22,7 @@ table.tabla-carrito {
     }
 
 }
-button {
+.botonesCarrito {
     padding: 4px;
     margin: 0.5rem;
     background-color: #888;
@@ -34,7 +34,7 @@ button {
     height: 30px;
 }
 
-button:hover {
+.botonesCarrito:hover {
     padding: 4px;
     margin: 0.5rem;
     background-color: #712c2c;

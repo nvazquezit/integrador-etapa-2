@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import CarritoContext from '../contexts/CarritoContext'
-
+import './ItemCarrito.scss'
 
 const ItemCarrito = ({producto}) => {
 
@@ -19,8 +19,8 @@ const ItemCarrito = ({producto}) => {
         <td>{producto.nombre}</td>
         <td>{producto.cantidad}</td>
         <td>{producto.precio}</td>
-        <td className="buttonEliminar">
-            <button onClick={() => handleEliminar(producto.id)}>Eliminar</button>
+        <td>
+            <button className="botonEliminarLista" onClick={() => handleEliminar(producto.id)}>Eliminar</button>
         </td>
     </tr>
   )

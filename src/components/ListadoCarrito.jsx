@@ -52,8 +52,8 @@ const ListadoCarrito = () => {
     { !carrito.length <= 0 && (
             <>
                 <div className="botones">
-                    <button onClick={handleLimpiarCarrito}>Vaciar Carrito</button>
-                    <button onClick={handleComprar}>Comprar</button>
+                    <button className="botonesCarrito" onClick={handleLimpiarCarrito}>Vaciar Carrito</button>
+                    <button className="botonesCarrito" onClick={handleComprar}>Comprar</button>
                 </div>
             </>
         )
