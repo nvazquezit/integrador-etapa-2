@@ -77,17 +77,21 @@ const CarritoProvider = ( {children} ) => {
             console.error('[guardarCarritoBackendContext]', error)
         }
     }
+  
+    const cantidadTotalCarrito = carrito.reduce(
+        (total, producto) => {
+          return total + (producto.cantidad || 1)
+        },0)
 
-    const calcularCantidadProductosCarritoContext = () => {
-
-    }
+    
 
     const data = {
         agregarProductoAlCarritoContext,
         eliminarProductoDelCarritoContext,
         limpiarCarritoContext,
         guardarCarritoBackendContext,
-        carrito
+        carrito,
+        cantidadTotalCarrito,
     }
 
     return <CarritoContext.Provider value={data}>{children}</CarritoContext.Provider>

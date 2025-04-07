@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Lata de cerveza Amstel x unidad",
       "foto": "imgs/cerveza-amstel-lata.jpeg",
       "descripcion": "Lata de cerveza Amstel de 200ml por unidad",
@@ -11,7 +11,7 @@
       "envio": true
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Lata de cerveza Grolsh",
       "foto": "imgs/cerveza-grolsh-lata.jpeg",
       "descripcion": "Lata de cerveza Grolsh de 200ml por unidad",
@@ -21,7 +21,7 @@
       "envio": true
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Lata de cerveza Heineken",
       "foto": "imgs/cerveza-heineken-lata.jpeg",
       "descripcion": "Lata de cerveza Heineken de 200ml por unidad",
@@ -31,7 +31,7 @@
       "envio": true
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Lata de cerveza Schneider",
       "foto": "imgs/cerveza-schneider-lata.jpeg",
       "descripcion": "Lata de cerveza Schneider de 200ml por unidad",
@@ -41,7 +41,7 @@
       "envio": true
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Combo 1: 2 Fernet Branca de 750ml + 2 Coca-Cola de 2,25ml",
       "foto": "imgs/combo-branca-coca.jpeg",
       "descripcion": "Combo ideal para reunion de muchos amigos",
@@ -51,7 +51,7 @@
       "envio": true
     },
     {
-      "id": 6,
+      "id": "6",
       "nombre": "Combo 2: 1 Fernet Branca 750ml + 2 Coca-Cola de 2,25 ml",
       "foto": "imgs/combo-branca-cocas.jpeg",
       "descripcion": "Combo ideal para una juntada express",
@@ -61,7 +61,7 @@
       "envio": true
     },
     {
-      "id": 7,
+      "id": "7",
       "nombre": "Combo 3: 1 Smirnoff 750ml + 2 Speed",
       "foto": "imgs/combo-vodka-speed.jpeg",
       "descripcion": "Combo ideal económico para previa",
@@ -71,7 +71,7 @@
       "envio": true
     },
     {
-      "id": 8,
+      "id": "8",
       "nombre": "Combo 4: 1 Smirnoff 750ml + 2 Jugo Cepita Naranja 1 lt",
       "foto": "imgs/combo-vodka-jugo.jpeg",
       "descripcion": "Combo dulce para previa",
@@ -81,7 +81,7 @@
       "envio": true
     },
     {
-      "id": 9,
+      "id": "9",
       "nombre": "Vodka Smirnoff Saborizados",
       "foto": "imgs/vodka-smirnoff.jpeg",
       "descripcion": "Botella por unidad, el gusto que quieras",
@@ -91,7 +91,7 @@
       "envio": true
     },
     {
-      "id": 10,
+      "id": "10",
       "nombre": "Agua Saborizada Villa del Sur Levite 1,5 lts",
       "foto": "imgs/saborizada-levite.jpeg",
       "descripcion": "Botella por unidad, gustos a elección",
@@ -101,7 +101,7 @@
       "envio": true
     },
     {
-      "id": 11,
+      "id": "11",
       "nombre": "Agua mineral Villa del Sur 1 lts",
       "foto": "imgs/agua-mineral.jpeg",
       "descripcion": "Botella por unidad",
@@ -121,5 +121,27 @@
       "envio": true
     }
   ],
-  "carrito": []
+  "carrito": [
+    {
+      "id": "d1e4"
+    },
+    {
+      "id": "1481",
+      "createAt": 1743555665067,
+      "cantidad": 1,
+      "carrito": [
+        {
+          "id": "2",
+          "nombre": "Lata de cerveza Grolsh",
+          "foto": "imgs/cerveza-grolsh-lata.jpeg",
+          "descripcion": "Lata de cerveza Grolsh de 200ml por unidad",
+          "precio": 1200,
+          "stock": "50",
+          "categoria": "cervezas",
+          "envio": true,
+          "cantidad": 1
+        }
+      ]
+    }
+  ]
 }
