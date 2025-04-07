@@ -1,0 +1,68 @@
+.titulo-crud {
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.form-style {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 24px;
+    width: 600px;
+    margin: 1rem auto;
+}
+
+.label-form-alta {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-style {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+.check-style {
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.input-style:focus {
+    width: 100%;
+    padding: 8px;
+    border: 5px solid;
+    border-radius: 8px;
+    outline-style: none;
+    border-color: #793939;
+    
+}
+
+.contenedor-botones-crud {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boton-guardar-editar {
+    padding-inline: 16px;
+    padding-block: 8px;
+    background-color: rgb(22, 163, 22);
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+.boton-reset {
+    padding-inline: 16px;
+    padding-block: 8px;
+    background-color: rgb(228, 36, 36);
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 8px;
+}

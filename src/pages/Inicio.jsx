@@ -16,7 +16,7 @@ const Inicio = () => {
         <section className="section-cards">
           <header className="section-cards__header">
             <h1>Distribuidora Mefer</h1>
-            <p>Nuestros destacados del mes</p>
+            <h2 className='subtitulo-index'>Nuestros destacados del mes</h2>
           </header>
         </section>
 

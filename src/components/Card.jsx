@@ -22,7 +22,7 @@ const Card = ({ producto }) => { // props = { producto }
                 <div className="card__content">
                     <h2 className="card__heading">{producto.nombre}</h2>
                     <div className="card__description">
-                        <p><b>{producto.precio}</b></p>
+                        <p><b>${producto.precio}</b></p>
                         <p>{producto.descripcion}</p>
                         <button onClick={() => handleAgregar(producto)} className="card__button">Agregar al carrito</button>
                      </div>

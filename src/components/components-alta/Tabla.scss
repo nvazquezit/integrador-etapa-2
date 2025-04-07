@@ -5,8 +5,14 @@ table.tabla-alta {
     margin: 1rem auto;
 
     th, td {
-        border: 1px solid black;
+        border: 1px solid #ddd;
         padding: 8px;
         text-align: left;
+    }
+    th {
+        background-color: #793939;
+        color: #fff;
+        text-align: center;
+        border: 1px solid black
     }
 }
