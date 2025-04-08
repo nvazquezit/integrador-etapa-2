@@ -1,0 +1,53 @@
+.mapa {
+    display: flex;
+    justify-content: center;
+
+}
+.google-maps {
+    width: 650px;
+    height: 400px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    
+}
+
+.title-nosotros {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(146, 28, 28);
+    text-shadow: 3px 3px 0px black;
+}
+
+.sub-title {
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+    color: rgb(146, 28, 28);
+    text-shadow: 1px 1px 0px black; 
+    
+}
+
+.img-png {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5px;
+}
+
+.img-edit {
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 50px;
+}
+
+.parrafos-nos {
+    font-size: 2rem;
+    margin: 30px;
+
+}

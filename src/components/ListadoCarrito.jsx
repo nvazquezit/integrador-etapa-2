@@ -22,6 +22,13 @@ const ListadoCarrito = () => {
         limpiarCarritoContext()
     }
 
+    const calcularTotal = () => {
+        return carrito.reduce((total, producto) => total + producto.cantidad * producto.precio, 0)
+    };
+    const calcularTotalProductos = () => {
+        return carrito.reduce((total, producto) => total + producto.cantidad, 0);
+      };
+
   return (
     <>
     <table className='tabla-carrito'>
@@ -51,6 +58,12 @@ const ListadoCarrito = () => {
     <hr />
     { !carrito.length <= 0 && (
             <>
+                <div className="total-precio">
+                     <p>Monto a Pagar: ${calcularTotal().toFixed(2)}</p>
+                </div>
+                <div className="total-prods">
+                     <p>Cantidad de Productos:{calcularTotalProductos()}</p>
+                </div>
                 <div className="botones">
                     <button className="botonesCarrito" onClick={handleLimpiarCarrito}>Vaciar Carrito</button>
                     <button className="botonesCarrito" onClick={handleComprar}>Comprar</button>
