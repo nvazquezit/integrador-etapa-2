@@ -1,0 +1,111 @@
+  
+  :root {
+    --firstColor: rgb(231, 195, 187);
+    --secondColor: rgb(174, 144, 139);
+    --thirdColor: rgb(48, 54, 23);
+    --fourthColor: rgb(248, 241, 240);
+    --fifthColor: black;
+  }
+
+  .inpt {
+    text-align: center;
+  }
+  .inpt:focus {
+    border: 3px solid rgb(116, 43, 43);
+    outline-style: none;
+  }
+  
+  .form-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    min-height: 100vh;
+  
+    @media screen and (min-width: 768px) {
+      & {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+  
+  :root {
+    --firstColor: rgb(231, 195, 187);
+    --secondColor: rgb(174, 144, 139);
+    --thirdColor: rgb(48, 54, 23);
+    --fourthColor: rgb(248, 241, 240);
+    --fifthColor: black;
+  }
+  
+  .form-contacto__form {
+    padding: 50px;
+  
+    &__fieldset {
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        background-color: gray;
+    }
+  
+    &__legend {
+      text-align: left;
+      padding: 5px;
+      border: 2px solid black;
+      border-radius: 5px;
+      border-color: black;
+      background-color: rgb(130, 40, 40);
+      color: #fff;
+      font-weight: bold;
+    }
+  
+    &__nombre,
+    &__apellido,
+    &__tel,
+    &__email,
+    &__age,
+    &__description {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5em;
+      font-weight: bold;
+      font-size: large;
+      text-shadow: 2px 2px 0 black;
+      color: #fff;
+    }
+  
+    #lbl-nombre,
+    #lbl-apellido,
+    #lbl-tel,
+    #lbl-mail,
+    #lbl-edad,
+    #comments {
+      border-radius: 5px;
+      height: 3rem;
+      width: 50%;
+      margin: auto;
+    }
+  
+    &__btn {
+      background-color: var(--secondColor);
+      padding: 5px;
+      border-radius: 5px;
+      border-color: var(--secondColor);
+      margin: 5px;
+      color: var(--fourthColor);
+      width: 50%;
+      margin: auto;
+  
+      &:hover {
+        cursor: pointer;
+        background-color: var(--firstColor);
+        color: var(--fifthColor);
+      }
+    }
+  }
+  

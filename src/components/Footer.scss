@@ -10,24 +10,25 @@
 .footer-content {
     padding: 1rem;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     /* display: flex; */
-    align-self: end;
-    
-    
-    &__payments {
+    &__contenedor {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+
+    &__payments {
         width: 3rem;
         height: 2rem;
-        gap: 30px;
      /*    justify-content: right; */
         
     }
 
-    &__p {
-        display: flex;
-        font-size: 12px;
+    &__parrafo {
+        font-size: 20px;
+        font-weight: bold;
     }
     
 }
