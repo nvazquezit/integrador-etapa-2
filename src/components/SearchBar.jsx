@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import CarritoContext from '../contexts/CarritoContext'
 
 const SearchBar = () => {
-    const {cantidadTotalCarrito} = useContext(CarritoContext)
+    const {cantidadTotalProductos} = useContext(CarritoContext)
     
   return (
     
@@ -18,7 +18,7 @@ const SearchBar = () => {
                 </form>
                 <div className="search-bar__carrito-container"><Link to="/carrito"><TiShoppingCart className="carrito" /></Link>
                     <div className='count-products'>
-						<span id='contador-productos'>{cantidadTotalCarrito}</span>
+						<span id='contador-productos'>{cantidadTotalProductos}</span>
 					</div>
                 </div>
                 <div className="menu-toogle">
