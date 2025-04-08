@@ -4,10 +4,10 @@
 
 ## NETLIFY LINK
 ```sh
-https://resplendent-beignet-cf8aad.netlify.app
+https://bespoke-zabaione-fdc891.netlify.app/
 ``` 
 
 ## GITHUB LINK
 ```sh
-https://github.com/nvazquezit/bc-73591-integrador-nicolas-vazquez.git
+https://github.com/nvazquezit/integrador-etapa-2
 ```
