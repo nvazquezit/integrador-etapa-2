@@ -4,7 +4,7 @@
 
 ## NETLIFY LINK
 ```sh
-https://bespoke-zabaione-fdc891.netlify.app/
+https://cheery-hotteok-963862.netlify.app/
 ``` 
 
 ## GITHUB LINK
