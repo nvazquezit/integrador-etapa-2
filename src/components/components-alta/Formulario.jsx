@@ -57,9 +57,11 @@ const Formulario = () => {
           })
 
     }
-    const handleReset = ()  => {
+    const handleReset = () => {
         setForm(formInicial)
         setProductoAEditar(null)
+        setFoto({ foto: placeHolderImagen }) // '' | { foto: '' }
+        setSrcImagenBack(placeHolderImagen)
     }
 
 
@@ -124,7 +126,7 @@ const Formulario = () => {
                     setSrcImagenBack={setSrcImagenBack} 
                 />
             </div>
-            <div>
+            {/* <div>
                 <label className="label-form-alta" htmlFor="lbl-foto">Foto</label>
                 <input className="input-style"
                 type="text" 
@@ -133,7 +135,7 @@ const Formulario = () => {
                 name="foto" 
                 value={form.foto} 
                 onChange={handleChange} />
-            </div>
+            </div> */}
             <div>
                 <label className="label-form-alta" htmlFor="lbl-envio">Envío</label>
                 <input className="check-style"
