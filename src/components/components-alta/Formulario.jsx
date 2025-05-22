@@ -26,17 +26,24 @@ const Formulario = () => {
     }, [productoAEditar])
 
     const [form, setForm] = useState(formInicial)
-
-    const [foto, setFoto] = useState('')
-    const [srcImagenBack, setSrcImagenBack] = useState('')
+    
+    /* Creamos 2 estados para gestionar el drag and drop */
+    const placeHolderImagen = 'http://localhost:8080/uploads/placeholderimagen.webp'
+    const [foto, setFoto] = useState({ foto : placeHolderImagen })
+    const [srcImagenBack, setSrcImagenBack] = useState(placeHolderImagen)
 
     const handleSubmit = (e) => {
         e.preventDefault()
 
         if (form.id === null) {
-            crearProductoContext(form)
+            //console.log(form)
+            //console.log(foto)
+            const productoNuevoConImagen = {...form, ...foto}
+            //console.log(productoNuevoConImagen)
+            crearProductoContext(productoNuevoConImagen)
         } else {
-            actualizarProductoContext(form)
+            const productoNuevoConImagen = {...form, ...foto}
+            actualizarProductoContext(productoNuevoConImagen)
         }
 
     }
